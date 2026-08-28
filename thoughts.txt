@@ -1,0 +1,16 @@
+- developer sends to 1000 stablecoin + 0.5% to business
+- business sends 1000 to honeycoin
+- honeycoin sends to destination mpesa account
+
+nuances
+- developer must pay 0.5% upfront. 
+To protect the business from malicious behaviour and also as a proof that the developer has the 1000
+- If the user does not send the 1000 through for transaction, the "proof" is valid for 72hrs.
+- If the user cancels the 0.5% is sent back to the user. 
+- If the user cancels more than 10 times consecutively the fee is increased to 5% and the number of transactions is limited below the average.
+
+questions
+- does the dev send stablecoin or mpesa??
+--- if mpesa then it is done via honeycoin. 
+--- stablecoin is okay and fine. 
+---- if it were an agent, it would do via stablecoin route but the receiver will receive mpesa
