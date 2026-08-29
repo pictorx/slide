@@ -14,3 +14,5 @@ questions
 --- if mpesa then it is done via honeycoin. 
 --- stablecoin is okay and fine. 
 ---- if it were an agent, it would do via stablecoin route but the receiver will receive mpesa
+
+https://claude.ai/share/5361f448-d3ad-4a35-bf55-4f90de655a9d

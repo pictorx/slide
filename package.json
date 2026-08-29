@@ -1,13 +1,10 @@
 {
-  "name": "slide",
-  "module": "index.ts",
-  "type": "module",
+  "name": "x402-honeycoin-offramp",
   "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@x402/core": "^2.24.0",
@@ -15,5 +12,9 @@
     "@x402/hono": "^2.24.0",
     "hono": "^4.13.5",
     "zod": "^4.5.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5"
   }
 }
